@@ -86,6 +86,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
 ```bash
+uv init .
 uv python install 3.12.3
 uv python pin 3.12.3
 uv venv
